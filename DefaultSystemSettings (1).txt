@@ -1,0 +1,21 @@
+[Configuration]
+BasedOn=..\Engine\Config\BaseSystemSettings.ini
+
+[SystemSettings]
+;WITH_S1 hsh6679 - foliage integration
+FoliageDrawRadiusMultiplier=1.000000
+;WITH_S1 hsh6679 - speed tree v4 integration
+SpeedTreeBranches=True
+SpeedTreeBillboards=True
+;WITH_S1 hsh6679 - fxaa integration
+FXAA=True
+;WITH_S1 hsh6679 - texture LOD integration
+MinTextureResidentMipCount = 7
+;WITH_S1 hsh6679 - disable subsurfacescattering for performance issue
+AllowSubsurfaceScattering=True
+AllowRadialBlur=False
+AllowImageReflections=True
+AllowImageReflectionShadowing=True
+SHSecondaryLighting=True
+CompositeDynamicLights=False
+
